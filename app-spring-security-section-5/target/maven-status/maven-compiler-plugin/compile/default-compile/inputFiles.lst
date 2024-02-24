@@ -1,0 +1,16 @@
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/configs/ProjectSecurityConfig.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/entities/Customer.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/services/EasyBankUserDetails.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/exceptions/UserNotCreatedException.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/AccountController.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/LoansController.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/EasyBankBackEndApp.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/repositories/CustomerRepository.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/LoginController.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/CardsController.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/NoticesController.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/services/impl/CustomerServiceImpl.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/services/CustomerService.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/BalanceController.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/configs/EazyBankUsernamePwdAuthenticationProvider.java
+/Users/mthembbu/code/app-spring-security-zero-to-master/app-spring-security-section-5/src/main/java/com/tstcore/easybank/controllers/ContactsController.java
