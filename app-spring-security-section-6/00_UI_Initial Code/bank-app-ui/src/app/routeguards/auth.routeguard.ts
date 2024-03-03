@@ -4,7 +4,7 @@ import { User } from '../model/user.model';
 
 @Injectable()
 export class AuthActivateRouteGuard implements CanActivate {
-    user = new User();
+    user: User = new User();
     
     constructor(private router: Router){
 

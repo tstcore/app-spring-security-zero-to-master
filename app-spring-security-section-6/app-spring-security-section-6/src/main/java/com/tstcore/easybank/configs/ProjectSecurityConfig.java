@@ -31,6 +31,8 @@ public class ProjectSecurityConfig {
         //--
         //--
         http    //-- creating the sessionID using the session management below
+                //-- we are not taking the responsibility of the security context, but instead
+                //-- spring framework will take care of it
                 .securityContext(context -> context.requireExplicitSave(false))
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.ALWAYS))
                 //-- CORS: Cross Origin Resource Sharing global settings
@@ -55,7 +57,7 @@ public class ProjectSecurityConfig {
                         .ignoringRequestMatchers("/contacts","/register")
                         //--
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
-                        //--
+                        //-- execute this CsrfTokeFilter cookie after the BasicAuthenticationFilter
                         .addFilterAfter(new CsrfCookiesFilter(), BasicAuthenticationFilter.class)
                 //-- resources that require authorization and authentication
                 .authorizeHttpRequests(
